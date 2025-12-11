@@ -1,0 +1,22 @@
+--------------------------------------------------------------------------------------------------------
+By : Eslam Ahmed Mahmoud Elsherbiny
+Section : 1
+--------------------------------------------------------------------------------------------------------
+# 1) Build the images and start the project (use this for the first time or after code changes)
+     Code : docker-compose up --build									
+
+# 2) Start the containers (use this if images are already built and no code changes were made)
+     Code : docker-compose up
+
+# 3) List the currently running (active) containers
+     Code : docker ps
+
+# 4) List all Docker images on your machine
+     Code : docker images
+
+# 5) Stop and remove the containers and networks
+     Code : docker-compose down
+
+# 6) (Important Extra) Stop and remove containers AND delete database volumes (Data will be lost)
+     Code : docker-compose down -v
+--------------------------------------------------------------------------------------------------------
